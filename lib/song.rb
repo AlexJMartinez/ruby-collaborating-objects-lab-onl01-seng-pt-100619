@@ -27,6 +27,7 @@ def self.new_by_filename(filename)
 end
 
 def artist_name=(name)
+  @name = name
 end
 
 end
