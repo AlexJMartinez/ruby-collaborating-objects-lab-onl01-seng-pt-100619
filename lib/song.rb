@@ -31,7 +31,7 @@ end
 def artist_name=(name)
   Artist.new = self.artist(name)
 
-binding.pry
+
 end
 
 end
