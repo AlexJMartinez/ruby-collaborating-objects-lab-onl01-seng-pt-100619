@@ -21,24 +21,11 @@ def self.new_by_filename(filename)
   artist_new = Artist.new(split_file[0])
   new_song.artist = artist_new
   new_song
-  #new_song.artist_name=
 
-
-
-
-  #artist_name = split_file[0]
-  #new_song.artist = split_file[0]
-  #artist_name = split_file[0]
-  #new_song.artist
-  #binding.pry
-  #new_song.artist = (split_file[0])
-  #artist_name(split_file[0])
-#binding.pry
-  #new_artist = self.new(artist_name)
-  #artist_name = Song.artist
 end
 
 def artist_name=(name)
+  Artist.new(name)
 
 
 end
