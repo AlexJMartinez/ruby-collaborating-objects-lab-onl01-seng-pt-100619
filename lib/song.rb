@@ -21,6 +21,7 @@ def self.new_by_filename(filename)
 
 
 
+
   #artist_name = split_file[0]
 
   #new_song.artist
