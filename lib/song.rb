@@ -27,7 +27,7 @@ def self.new_by_filename(filename)
 end
 
 def artist_name=(name)
-  Artist.new = Song.artist(name)
+  Artist.name = Song.artist(name)
 
 binding.pry
 end
