@@ -28,7 +28,7 @@ end
 
 def artist_name=(name)
 
-binding.pry
+#binding.pry
 end
 
 end
