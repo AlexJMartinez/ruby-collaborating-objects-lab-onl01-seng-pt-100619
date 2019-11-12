@@ -1,7 +1,7 @@
 require 'pry'
 class Song
 
-attr_accessor :name, :artist
+attr_accessor :name, :artist, :artist_name
 
 @@all = []
 
@@ -24,7 +24,7 @@ def self.new_by_filename(filename)
   #new_artist = self.new(artist_name)
   #artist_name = Song.artist
 
-  def 
+  def
 
 
 end
