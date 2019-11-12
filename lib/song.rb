@@ -19,7 +19,7 @@ def self.new_by_filename(filename)
   song_name = split_file[1]
   new_song = self.new(song_name)
   artist_name = Artist.new(split_file[0])
-  artist_name = song.artist
+  artist_name = new_song
   #binding.pry
   #artist_name = split_file[0]
   #new_artist = self.new(artist_name)
