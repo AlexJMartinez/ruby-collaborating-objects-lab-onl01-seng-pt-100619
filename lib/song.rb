@@ -18,7 +18,7 @@ def self.new_by_filename(filename)
   split_file = filename.split(" - ")
   song_name = split_file[1]
   new_song = self.new(song_name)
-  new_artist = Artist.new(split_file[0])
+  new_artist = self.new(split_file[0])
   #artist_name = Artist.new(split_file[0])
 
   #binding.pry
