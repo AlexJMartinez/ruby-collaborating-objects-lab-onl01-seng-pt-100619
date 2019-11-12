@@ -20,6 +20,7 @@ def self.new_by_filename(filename)
   new_song = self.new(song_name)
   artist_new = Artist.new(split_file[0])
   new_song.artist = artist_new
+  new_song
   #new_song.artist_name=
 
 
