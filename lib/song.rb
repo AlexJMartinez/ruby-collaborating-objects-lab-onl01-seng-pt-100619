@@ -20,7 +20,7 @@ def self.new_by_filename(filename)
   new_song = self.new(song_name)
   #artist_name = split_file[0]
   #new_artist = self.new(artist_name)
-binding.pry
+#binding.pry
 end
 
 end
