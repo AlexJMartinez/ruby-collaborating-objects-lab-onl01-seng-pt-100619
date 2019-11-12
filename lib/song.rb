@@ -29,7 +29,7 @@ end
 def artist_name=(name)
   Artist.new = song.artist(name)
 
-#binding.pry
+binding.pry
 end
 
 end
